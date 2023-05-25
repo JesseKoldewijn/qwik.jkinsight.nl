@@ -2,11 +2,11 @@ import QwikImage from "@/utils/qwik-image"
 import { component$ } from "@builder.io/qwik"
 import type { DocumentHead } from "@builder.io/qwik-city"
 
-import QwikLogo from "@/images/qwik-logo.png"
+import QwikLogo from "@/images/qwik-logo.webp"
 
 export default component$(() => {
   return (
-    <div class="flex min-h-screen w-full flex-col items-center justify-center bg-black text-white">
+    <>
       <div class="flex w-full max-w-4xl flex-col gap-2">
         <div class="flex w-full flex-col items-center gap-3 border-white pb-2">
           <h1 class="text-xl font-bold italic text-amber-400">Hi 👋</h1>
@@ -17,9 +17,9 @@ export default component$(() => {
           <QwikImage
             src={QwikLogo}
             alt="Some random image"
-            res={200}
-            height={100}
-            width={100}
+            res={100}
+            height={88}
+            width={88}
             class="border-2 border-x-amber-400 border-y-amber-600 p-3"
           />
           <p class="max-w-2xl text-center font-light italic">
@@ -28,7 +28,7 @@ export default component$(() => {
           </p>
         </div>
       </div>
-    </div>
+    </>
   )
 })
 
