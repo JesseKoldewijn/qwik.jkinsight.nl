@@ -26,6 +26,7 @@ lerna-debug.log*
 # Editor
 .vscode/*
 !.vscode/extensions.json
+!.vscode/qwik-snippets.code-snippets
 .idea
 .DS_Store
 *.suo

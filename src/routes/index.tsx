@@ -3,6 +3,7 @@ import { component$ } from "@builder.io/qwik"
 import type { DocumentHead } from "@builder.io/qwik-city"
 
 import QwikLogo from "@/images/qwik-logo.webp"
+import Button from "@/components/react/button"
 
 export default component$(() => {
   return (
@@ -22,6 +23,14 @@ export default component$(() => {
             width={250}
             class="border-2 border-x-purple-400 border-y-blue-400 p-3"
           />
+          <p class="max-w-2xl text-center font-light italic">
+            This image component wrapper practically behaves and is used the
+            same way as the next/image component in Next.js
+          </p>
+        </div>
+        <div class="flex w-full flex-col items-center gap-3 border-t-2 border-white pt-2">
+          <h2 class="font-bold">React.js flow included + code-snippets</h2>
+          <Button />
           <p class="max-w-2xl text-center font-light italic">
             This image component wrapper practically behaves and is used the
             same way as the next/image component in Next.js
