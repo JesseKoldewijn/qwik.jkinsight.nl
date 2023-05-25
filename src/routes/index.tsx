@@ -21,7 +21,7 @@ export default component$(() => {
             height={88}
             width={250}
             class="border-2 border-x-purple-400 border-y-blue-400 p-3"
-            placeholder={"#C084FC"}
+            placeholder={"UMAdvbys-s.9$-t7xvoz8^VsR%MwS0R*WZai"}
           />
           <p class="max-w-2xl text-center font-light italic">
             This image component wrapper practically behaves and is used the
