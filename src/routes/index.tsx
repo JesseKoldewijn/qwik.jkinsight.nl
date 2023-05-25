@@ -19,8 +19,8 @@ export default component$(() => {
             alt="Some random image"
             res={100}
             height={88}
-            width={88}
-            class="border-2 border-x-amber-400 border-y-amber-600 p-3"
+            width={250}
+            class="border-2 border-x-purple-400 border-y-blue-400 p-3"
           />
           <p class="max-w-2xl text-center font-light italic">
             This image component wrapper practically behaves and is used the
