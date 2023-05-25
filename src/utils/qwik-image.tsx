@@ -14,7 +14,7 @@ export default component$(
     const imageTransformer$ = $(
       ({ src, width, height }: ImageTransformerProps): string => {
         // Here you can set your favourite image loaders service
-        return `${src}?height=${height}&width=${width}`
+        return `${src}?height=${height}&width=${width}}&format=webp&fit=fill`
       }
     )
 
