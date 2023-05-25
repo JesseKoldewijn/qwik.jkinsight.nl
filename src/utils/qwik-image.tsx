@@ -10,7 +10,6 @@ export default component$(
     width?: number
     height?: number
     class?: string
-    placeholder?: string
   }) => {
     const imageTransformer$ = $(
       ({ src, width, height }: ImageTransformerProps): string => {
@@ -38,7 +37,6 @@ export default component$(
         height={props.height ? props.height : 500}
         alt={props.alt}
         src={props.src}
-        placeholder={props.placeholder ? props.placeholder : "transparant"}
       />
     )
   }
