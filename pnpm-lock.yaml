@@ -1,10 +1,5 @@
 lockfileVersion: '6.0'
 
-dependencies:
-  qwik-image:
-    specifier: ^0.0.4
-    version: 0.0.4
-
 devDependencies:
   '@builder.io/qwik':
     specifier: ^1.1.4
@@ -45,6 +40,9 @@ devDependencies:
   prettier-plugin-tailwindcss:
     specifier: ^0.3.0
     version: 0.3.0(prettier@2.8.8)
+  qwik-image:
+    specifier: ^0.0.4
+    version: 0.0.4
   tailwindcss:
     specifier: ^3.3.2
     version: 3.3.2
@@ -7165,7 +7163,7 @@ packages:
 
   /qwik-image@0.0.4:
     resolution: {integrity: sha512-RzIQNWIAOh64tFlJ3oF+FOwN93hoizH+SMcRctMY/BP998nhNQg7xe7rL0qtrFQ7pZOAuUQt7iI3Fnm6e7I1zA==}
-    dev: false
+    dev: true
 
   /range-parser@1.2.1:
     resolution: {integrity: sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==}
