@@ -4,6 +4,7 @@ import type { DocumentHead } from "@builder.io/qwik-city"
 
 import QwikLogo from "@/images/qwik-logo.webp"
 import Button from "@/components/react/button"
+import MotionDemo from "@/components/react/motionDemo"
 
 export default component$(() => {
   return (
@@ -34,6 +35,13 @@ export default component$(() => {
           <p class="max-w-2xl text-center font-light italic">
             This image component wrapper practically behaves and is used the
             same way as the next/image component in Next.js
+          </p>
+        </div>
+        <div class="flex w-full flex-col items-center gap-3 border-t-2 border-white pt-2">
+          <h2 class="font-bold">Custom Motion wrapper</h2>
+          <MotionDemo />
+          <p class="max-w-2xl text-center font-light italic">
+            This component uses my WIP custom Motion wrapper.
           </p>
         </div>
       </div>
