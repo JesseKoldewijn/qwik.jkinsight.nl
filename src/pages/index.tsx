@@ -33,8 +33,7 @@ export default component$(() => {
           <h2 class="font-bold">React.js flow included + code-snippets</h2>
           <Button />
           <p class="max-w-2xl text-center font-light italic">
-            This image component wrapper practically behaves and is used the
-            same way as the next/image component in Next.js
+            This component is a React.js element that is loaded on hover.
           </p>
         </div>
         <div class="flex w-full flex-col items-center gap-3 border-t-2 border-white pt-2">
