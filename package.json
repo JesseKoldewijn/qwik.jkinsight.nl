@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "@glitchtech-dev/react-motion": "^1.1.0",
+    "lucide-react": "^0.221.0",
     "motion": "^10.16.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -42,6 +43,7 @@
     "prettier": "2.8.8",
     "prettier-plugin-tailwindcss": "^0.3.0",
     "qwik-image": "^0.0.4",
+    "rehype-autolink-headings": "^6.1.1",
     "tailwindcss": "^3.3.2",
     "typescript": "5.0.4",
     "undici": "5.22.1",

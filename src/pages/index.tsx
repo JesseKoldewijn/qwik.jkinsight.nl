@@ -5,6 +5,9 @@ import type { DocumentHead } from "@builder.io/qwik-city"
 import QwikLogo from "@/images/qwik-logo.webp"
 import Button from "@/components/react/button"
 import MotionDemo from "@/components/react/motionDemo"
+import ButtonSR from "@/components/react/buttonSR"
+
+import DocsMDX from "@/content/demo-docs.mdx"
 
 export default component$(() => {
   return (
@@ -41,6 +44,20 @@ export default component$(() => {
           <MotionDemo />
           <p class="max-w-2xl text-center font-light italic">
             This component uses my WIP custom Motion wrapper.
+          </p>
+        </div>
+        <div class="flex w-full flex-col items-center gap-3 border-t-2 border-white pt-2">
+          <h2 class="font-bold">Screenreader support</h2>
+          <ButtonSR />
+          <p class="max-w-2xl text-center font-light italic">
+            Some users might use a screenreader.
+          </p>
+        </div>
+        <div class="flex w-full flex-col items-center gap-3 border-t-2 border-white pt-2">
+          <h2 class="font-bold">MDX</h2>
+          <DocsMDX />
+          <p class="max-w-2xl text-center font-light italic">
+            MDX supported out of the box.
           </p>
         </div>
       </div>
