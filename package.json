@@ -2,6 +2,7 @@
   "name": "qwik-jkinsight",
   "description": "A very Qwik website right?",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "qwik build",
     "build.client": "vite build",
