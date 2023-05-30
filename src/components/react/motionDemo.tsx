@@ -1,7 +1,7 @@
 /** @jsxImportSource react */
 import { qwikify$ } from "@builder.io/qwik-react"
 
-import { useMotionAnimate, Motion } from "@glitchtech-dev/react-motion/dist/cjs"
+import { useMotionAnimate, Motion } from "@glitchtech-dev/react-motion"
 import { useEffect, useRef } from "react"
 
 const MotionDemo = () => {
@@ -36,24 +36,18 @@ const MotionDemo = () => {
 
   return (
     <div className="flex flex-col gap-3">
-      <div className="relative w-32 select-none pb-6">
-        <span ref={firstElem} className="absolute" style={{ opacity: 0 }}>
+      <div className="flex select-none gap-2 pb-2">
+        <span ref={firstElem} style={{ opacity: 0 }}>
           {"I've appeared!"}
         </span>
-        <span ref={secondElem} className="absolute">
-          {"I'm disappearing!"}
-        </span>
+        <span ref={secondElem}>{"I'm disappearing!"}</span>
       </div>
-      <div className="flex flex-col gap-2">
-        <h3 className="text-md text-center font-semibold">
-          Motion.div example
-        </h3>
+      <div className="flex flex-col gap-2 text-center">
+        <h3 className="text-md font-semibold">Motion.div example</h3>
         <Motion
           animate={{
             color: ["white", "cyan"],
             textShadow: [textShadow1, textShadow2],
-            paddingTop: ["1rem", "2rem", "0rem"],
-            paddingBottom: ["1rem", "2rem", "0rem"],
           }}
           transition={{ duration: 2.5, easing: "ease-out" }}
         >

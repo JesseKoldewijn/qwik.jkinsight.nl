@@ -20,7 +20,7 @@
     "qwik": "qwik"
   },
   "dependencies": {
-    "@glitchtech-dev/react-motion": "^1.1.6",
+    "@glitchtech-dev/react-motion": "^1.1.13",
     "lucide-react": "^0.224.0",
     "motion": "^10.16.2",
     "react": "^18.2.0",

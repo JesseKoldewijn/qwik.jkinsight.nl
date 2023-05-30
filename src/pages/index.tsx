@@ -49,9 +49,14 @@ export default component$(() => {
         <div class="flex w-full flex-col items-center gap-3 border-t-2 border-white pt-2">
           <h2 class="font-bold">Screenreader support</h2>
           <ButtonSR />
-          <p class="max-w-2xl text-center font-light italic">
-            Some users might use a screenreader.
-          </p>
+          <div class="flex flex-col">
+            <span class="max-w-2xl text-center font-light italic">
+              {`Some users might use a screenreader.`}
+            </span>
+            <span class="max-w-2xl text-center font-light italic">
+              {`So using tailwind's "sr-only" class you can add descriptive names to buttons for instance.`}
+            </span>
+          </div>
         </div>
         <div class="flex w-full flex-col items-center gap-3 border-t-2 border-white pt-2">
           <h2 class="font-bold">MDX</h2>

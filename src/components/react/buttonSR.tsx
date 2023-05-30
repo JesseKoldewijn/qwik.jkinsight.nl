@@ -10,7 +10,6 @@ const button = () => {
   const [clicked, setClicked] = useState(0)
 
   const incrementClicked = (clickedNew: SetStateAction<number>) => {
-    localStorage.setItem("q-preclick-jki", String(clickedNew))
     setClicked(clickedNew)
   }
 
@@ -21,6 +20,7 @@ const button = () => {
         className="rounded-xl bg-purple-500 px-4 py-3 font-bold text-black"
       >
         <HomeIcon />
+        {clicked}
         <span className="sr-only">A button to the home page</span>
       </button>
     </>
