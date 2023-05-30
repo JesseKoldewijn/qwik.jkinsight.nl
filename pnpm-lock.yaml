@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@glitchtech-dev/react-motion':
-    specifier: ^1.1.5
-    version: 1.1.5(motion@10.16.2)(react-dom@18.2.0)(react@18.2.0)(typescript@5.0.4)
+    specifier: ^1.1.6
+    version: 1.1.6(motion@10.16.2)(react-dom@18.2.0)(react@18.2.0)(typescript@5.0.4)
   motion:
     specifier: ^10.16.2
     version: 10.16.2
@@ -2161,8 +2161,8 @@ packages:
     resolution: {integrity: sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==}
     dev: true
 
-  /@glitchtech-dev/react-motion@1.1.5(motion@10.16.2)(react-dom@18.2.0)(react@18.2.0)(typescript@5.0.4):
-    resolution: {integrity: sha512-h66ORf9Wfh5nrzzjr4MXqkkMVKD6yCKujuPCPV9OvRzOKYNOTzcYjSvwpUQN85X1qI6EN2VP5yxr3achOOJtgw==}
+  /@glitchtech-dev/react-motion@1.1.6(motion@10.16.2)(react-dom@18.2.0)(react@18.2.0)(typescript@5.0.4):
+    resolution: {integrity: sha512-3DC3pZzVJgu4CBUNKS99Dr8p+F2bRBgocwwLsNPkZ+YRy1KigiM36img3NImef63yPcMazjc1wsL41PSlPx8jQ==}
     peerDependencies:
       motion: 10.16.2
       react: 18.2.0
